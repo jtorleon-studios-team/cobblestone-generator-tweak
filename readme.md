@@ -77,3 +77,73 @@ The mod comes with a set of ready-to-use generators so you can start right away 
     </tr>
   </tbody>
 </table>
+
+## Creating Custom Generators with Datapacks
+
+This mod is fully datapack-driven, which means you can add your own generators without touching the code.
+
+1) Create a datapack in your datapacks/ folder.
+2) Inside, add your JSON files under: `data/bettercobstgen/generator/<name>.json`
+3) Define the block probabilities in your JSON. Example:
+    ```json
+    {
+      "source_block_id": "minecraft:dirt",
+      "generation_rules": [
+        {
+          "generated_block_id": "minecraft:dirt",
+          "weight": 1.0 // 100%
+        }
+      ]
+    }
+    ```
+    - Each generator rule must define a weight.
+    - The sum of all weights for a given generator must not exceed 1.0.
+    - If the total is higher, the datapack will be considered invalid and ignored.
+4) Reload the datapack (/reload) and your new generator is instantly available.
+
+This way, anyone can create and share custom generators easily, without writing a single line of Java.
+
+You can find an example datapack at the following URL:
+- [github.com/jtorleon-studios-team/cobblestone-generator-tweak/tree/main/example/compat_biome_o](https://github.com/jtorleon-studios-team/cobblestone-generator-tweak/tree/main/example/compat_biome_o)
+
+## About Weight Rules
+
+- Each generator rule must define a weight.
+- The sum of all weights for a given generator must not exceed 1.0.
+- If the total is higher, the datapack will be considered invalid and ignored.
+
+Example
+```json
+{
+  "source_block_id": "minecraft:dirt",
+  "generation_rules": [
+    {
+      "generated_block_id": "minecraft:dirt",
+      "weight": 0.5 // 50%
+    },
+    {
+      "generated_block_id": "minecraft:sand",
+      "weight": 0.5 // 50%
+    }
+  ]
+}
+```
+```json
+{
+  "source_block_id": "minecraft:dirt",
+  "generation_rules": [
+    {
+      "generated_block_id": "minecraft:dirt",
+      "weight": 0.5 // 50%
+    },
+    {
+      "generated_block_id": "minecraft:sand",
+      "weight": 0.25 // 25%
+    },
+    {
+      "generated_block_id": "minecraft:stone",
+      "weight": 0.25 // 25%
+    }
+  ]
+}
+```
