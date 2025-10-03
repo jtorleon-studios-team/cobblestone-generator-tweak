@@ -91,7 +91,7 @@ This mod is fully datapack-driven, which means you can add your own generators w
       "generation_rules": [
         {
           "generated_block_id": "minecraft:dirt",
-          "weight": 1.0 // 100%
+          "weight": 1.0
         }
       ]
     }
