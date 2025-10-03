@@ -1,0 +1,9 @@
+{
+  "source_block_id": "minecraft:mossy_cobblestone",
+  "generation_rules": [
+    {
+      "generated_block_id": "minecraft:mossy_cobblestone",
+      "weight": 1.0
+    }
+  ]
+}

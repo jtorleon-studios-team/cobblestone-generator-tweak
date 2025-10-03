@@ -1,0 +1,9 @@
+{
+  "source_block_id": "biomesoplenty:black_sandstone",
+  "generation_rules": [
+    {
+      "generated_block_id": "biomesoplenty:black_sandstone",
+      "weight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "source_block_id": "minecraft:coal_ore",
+  "generation_rules": [
+    {
+      "generated_block_id": "minecraft:cobblestone",
+      "weight": 0.6
+    },
+    {
+      "generated_block_id": "minecraft:infested_cobblestone",
+      "weight": 0.2
+    },
+    {
+      "generated_block_id": "minecraft:coal_ore",
+      "weight": 0.18
+    },
+    {
+      "generated_block_id": "minecraft:coal_block",
+      "weight": 0.02
+    }
+  ]
+}

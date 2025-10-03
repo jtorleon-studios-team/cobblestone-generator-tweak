@@ -1,0 +1,9 @@
+{
+  "source_block_id": "minecraft:stone",
+  "generation_rules": [
+    {
+      "generated_block_id": "minecraft:stone",
+      "weight": 1.0
+    }
+  ]
+}

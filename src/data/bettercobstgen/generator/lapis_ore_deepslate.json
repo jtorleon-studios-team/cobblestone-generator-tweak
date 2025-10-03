@@ -1,0 +1,21 @@
+{
+  "source_block_id": "minecraft:deepslate_lapis_ore",
+  "generation_rules": [
+    {
+      "generated_block_id": "minecraft:cobblestone",
+      "weight": 0.8
+    },
+    {
+      "generated_block_id": "minecraft:infested_cobblestone",
+      "weight": 0.11
+    },
+    {
+      "generated_block_id": "minecraft:deepslate_lapis_ore",
+      "weight": 0.08
+    },
+    {
+      "generated_block_id": "minecraft:lapis_block",
+      "weight": 0.01
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "source_block_id": "minecraft:andesite",
+  "generation_rules": [
+    {
+      "generated_block_id": "minecraft:andesite",
+      "weight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "source_block_id": "minecraft:redstone_ore",
+  "generation_rules": [
+    {
+      "generated_block_id": "minecraft:cobblestone",
+      "weight": 0.9
+    },
+    {
+      "generated_block_id": "minecraft:infested_cobblestone",
+      "weight": 0.05
+    },
+    {
+      "generated_block_id": "minecraft:redstone_ore",
+      "weight": 0.04
+    },
+    {
+      "generated_block_id": "minecraft:redstone_block",
+      "weight": 0.01
+    }
+  ]
+}

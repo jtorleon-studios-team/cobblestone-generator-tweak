@@ -1,0 +1,9 @@
+{
+  "source_block_id": "minecraft:gravel",
+  "generation_rules": [
+    {
+      "generated_block_id": "minecraft:gravel",
+      "weight": 1.0
+    }
+  ]
+}
