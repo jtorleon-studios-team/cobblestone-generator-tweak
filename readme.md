@@ -1,4 +1,4 @@
-Coming Soon 
+
 # Cobblestone Generator Tweak
 
 Tired of your cobblestone generator always giving the same block? This mod tweaks it so generators can produce various stone types and even rare ores.
