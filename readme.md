@@ -3,6 +3,20 @@
 
 Tired of your cobblestone generator always giving the same block? This mod tweaks it so generators can produce various stone types and even rare ores.
 
+## Features :
+
+- Cobblestone generators don’t just make cobble anymore, they can also give you stone, andesite, diorite and a few other blocks. 
+- The odds of getting ores are balanced to keep things close to vanilla progression, nothing too crazy.
+- Works fine in singleplayer and multiplayer, no special setup needed.
+- Super lightweight: no extra items, no menus, no configs. Just drop it in and it’s ready.
+- This mod is fully datapack-driven, which means you can add your own generators without touching the code.
+
+## How To Use :
+
+It works very simply: start by building a regular cobblestone generator and let it produce its first block. Then, replace the block under the generated cobblestone with the one you want to use as a generator.
+
+![example](https://cdn.modrinth.com/data/v5xDqCJr/images/ca4fe244c78ea4951c37daa240c41c2e7cc23ef3.png)
+
 ## Default Generators
 
 The mod comes with a set of ready-to-use generators so you can start right away without any configuration.
@@ -80,7 +94,8 @@ The mod comes with a set of ready-to-use generators so you can start right away 
 
 ## Creating Custom Generators with Datapacks
 
-This mod is fully datapack-driven, which means you can add your own generators without touching the code.
+This mod is fully datapack-driven, which means you can add your own generators without touching the code. You can find an example datapack for Biomes O Plenty at the following URL :
+<br> 💡 <a href="https://github.com/jtorleon-studios-team/cobblestone-generator-tweak/tree/main/example/compat_biome_o" target="_blank">Example With Biomes O Plenty</a>
 
 1) Create a datapack in your datapacks/ folder.
 2) Inside, add your JSON files under: `data/bettercobstgen/generator/<name>.json`
